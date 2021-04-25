@@ -8,10 +8,10 @@ function setup() {
 
 function draw() {
 
-	background('#FF443B');
+	background(random(20,5,100));
   rectangles();
   circles();
-  
+
 }
 
 function rectangles() {
@@ -44,6 +44,8 @@ function rectangles() {
 
   fill('#9B1818');
   rect(xPos*4,yPos*4,ht,wd);
+
+
 }
 
 function circles() {
